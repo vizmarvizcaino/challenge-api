@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos Larnu</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="contenedor-busqueda">
+    <label for="buscar">Cursos - Larnu</label>
+    <nav>
+      <a href="index.html"><img src="logo.png" alt="Logo" class="logo"></a>
+      <input type="buscar" id="buscar" class="buscar-datos" placeholder="Buscar..." />
+    </nav>
+  </div>
+  <div class="tarjetas-usuarios contenedor-dato-usuario">
+  <span class="cargando">cargando...</span>
+  <template class="modelo-dato-usuario">
+    <div class="tarjeta">
+      <img src="#" alt="" class="image">
+      <div class="titulo"></div>
+      <div class="usuario"></div>
+      <div class="descripcion"></div>
+      <div class="resources--center_buttons">
+        <p class="counter_positive" id="countPositive3">0</p>
+        <button class="resources_button" id="buttonIncrese3">👍</button>
+        <p class="counter_negative" id="countNegative3">0</p>
+        <button class="resources_button" id="buttonNegative3">👎</button>
+      </div>
+    </div>
+  </template>
+</div>
+</body>
+
+</html>
